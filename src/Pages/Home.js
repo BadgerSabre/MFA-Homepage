@@ -1,9 +1,7 @@
-function Home() {
+export default function Home() {
     return(
         <>
-            <h1>Sample Content for home page...</h1>
+            <h2>Sample Content for home page...</h2>
         </>
     )
 }
-
-export default Home;
