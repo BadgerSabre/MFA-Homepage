@@ -2,7 +2,8 @@ import './Header.css'
 
 export default function Header() {
     return (
-        <div >
+        <div>
+            <h1 id='header'>Hello World</h1>
             <ul>
                 <li>
                     <a href='/'>Home</a>
