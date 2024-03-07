@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './Components/Header/Header';
+import Form from './Components/Form/Form';
 import About from './Pages/About';
 import Home from './Pages/Home';
 import Coaches from './Pages/Coaches';
@@ -14,6 +15,7 @@ function App() {
   return (
     <>
       <Header />
+      <Form />
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />}></Route>
